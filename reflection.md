@@ -2,10 +2,34 @@
 
 ## 1. System Design
 
+
 **a. Initial design**
 
 - Briefly describe your initial UML design.
+
+core actions: pet information, track tasks, generate daily plan
+
 - What classes did you include, and what responsibilities did you assign to each?
+
+Pet Owner: 
+
+number of pets, number of tasks
+addTask()
+removeTask()
+generate_daily_plan()
+
+Pets: 
+
+name, age, breed
+
+Tasks: 
+
+duration of tasks, priority, status
+
+Daily plan: 
+
+date, number of tasks
+
 
 **b. Design changes**
 
